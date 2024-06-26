@@ -13,3 +13,29 @@ Giggle Garmments is a full-stack web application developed using ASP.NET Core MV
 - **Backrnd:** ASP.NET Core MVC,C#
 - **Authentication:** ASP.NET Core Identity
 - **DataBase:** SQL Server
+
+## How to Run
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/ali-aslam10/Giggle-Garments.git
+    ```
+
+2. **Navigate to the repository directory:**
+
+    ```bash
+    cd web-engineering
+    ```
+3. **Install dependencies:**
+
+   ```bash
+    dotnet restore
+    ```
+4. **Run apllication:**
+
+   ```bash
+    dotnet run
+    ```
+
+
