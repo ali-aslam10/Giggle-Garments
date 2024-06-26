@@ -1,0 +1,14 @@
+﻿@using Giggle_Garments_MVC.Models;
+@model Product
+<div class="card border-0" style="width: 18rem;">
+    <a asp-controller="Category" asp-action="specific" asp-route-id="@Model.Id">
+        <img src="@Model.ImagePath.Substring(Model.ImagePath.IndexOf("wwwroot")).Replace("wwwroot","")" class="card-img-top" alt="Product image">
+        <div class="card-body text-center">
+            <p class="card-title fw-medium text-capitalize">@Model.Name <br /> <span>(Product ID: @Model.Id)</span></p>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Rs.@string.Format("{0:N2}", Model.Price)</h6>
+        </div>
+    </a>
+</div>
+
+
+

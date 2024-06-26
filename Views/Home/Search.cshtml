@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "_CustomLayout";
+}
+@model List<Product>
+
+<title>Giggle Garments</title>
+<div class="container mt-4">
+  <div class="row justify-content-evenly gy-3">
+    @if (Model.Count == 0)
+    {
+        <div class="col-auto">
+            <img src="~/images/not found product.jpeg" class="img-fluid" style="max-height:500px">
+        </div>
+    }
+    else
+    {
+    
+        @foreach (var p in Model)
+        {
+
+            <partial name="_ProductPartial" model="p" />
+
+        }
+        
+    }
+  </div>
+</div>

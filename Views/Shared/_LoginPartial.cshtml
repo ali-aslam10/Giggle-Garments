@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <a class=" text-black" asp-area="Identity" asp-page="/Account/Logout"><i class="bi bi-person fs-3 "></i></a>
+}
+else
+{
+
+    <a class=" text-black" asp-area="Identity" asp-page="/Account/Login"><i class="bi bi-person fs-3 "></i></a>
+
+}

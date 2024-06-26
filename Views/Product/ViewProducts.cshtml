@@ -1,0 +1,94 @@
+﻿@{
+    Layout =null;
+}
+
+@using Giggle_Garments_MVC.Models.View_Model
+@model ProductStock
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col text-center">
+                <p class="fw-medium fs-3" style="font-family:Algerian"> Giggle Garments Products</p>
+            </div>
+        </div>
+        <div class="row gy-3">
+            @{
+                int j = 0;
+            }
+            
+            @foreach (var p in Model.Products)
+            {
+
+                    <div class="col-md-6 col-lg-4">
+                    <div class="card text-bg-light border-success mb-3 h-100" @* style="max-width: 540px;" *@>
+                        <div class="row g-0">
+                            <div class="col-4 align-self-center">
+                                <img src="@p.ImagePath.Substring(p.ImagePath.IndexOf("wwwroot")).Replace("wwwroot","")" alt="Product image" class="img-fluid rounded-start" style="max-height: 400px;">
+                            </div>
+                            <div class="col-8">
+                                <div class="d-flex">
+                                    <a asp-action="removeProdct" class="text-danger ms-auto me-2 mt-1" asp-route-id="@p.Id"><i class="bi bi-trash3"></i></a>
+                                </div>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="card-title text-center ms-5">Product Detail</h5>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a asp-action="UpdateProduct" class="text-warning ms-auto" asp-route-id="@p.Id"><i class="bi bi-pencil"></i></a>
+                                        </div>
+                                    </div>
+                                    <p class="fw-normal text-center mb-1">@p.Name</p>
+                                    <div class="row justify-content-evenly">
+
+                                        <div class="col-auto">
+                                            <span class="fw-medium text-muted">Price: <span class="fw-normal ">Rs.@string.Format("{0:N2}", p.Price)</span></span>
+                                        </div>
+                                        @{
+                                            string[] desc = p.Description.Split(",");
+                                        }
+                                        <div class="col-auto">
+                                            <span class="fw-medium text-muted">Color: <span class="fw-normal text-capitalize">@desc[1]</span></span>
+                                        </div>
+
+                                        <div class="col-auto">
+                                            <span class="fw-medium text-muted">Fabric: <span class="fw-normal text-uppercase ">@desc[0]</span></span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <span class="fw-medium text-muted">Gender: <span class="fw-normal text-uppercase">@desc[2]</span></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col mt-1">
+                                            <h5 class="card-title text-center ms-3">Quantity In Hand</h5>
+                                        </div>
+                                        <div class="col-auto mt-1">
+                                            <a asp-action="UpdateStock" asp-route-id="@Model.Stocks.ElementAt(j).Id" class="text-warning ms-auto"><i class="bi bi-pencil"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-evenly">
+
+                                        <partial name="_StockPartial" model="(p.CategoryId,@Model.Stocks.ElementAt(j++))" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+           
+        </div>
+
+    </div>
+</body>

@@ -1,0 +1,90 @@
+﻿@{
+    Layout = null;
+}
+
+@model List<Stock>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        th, td {
+            white-space: nowrap;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row-col-1">
+            <div class="col text-center">
+                <p class="fw-medium fs-3" style="font-family:Algerian"> Quantity in Hand</p>
+            </div>
+
+            <div class="col table-responsive">
+                <table class="table table-bordered table-light table-striped table-hover align-middle">
+                    <thead>
+                        <tr>
+                            <th>Product Id</th>
+                            <th>0/3-M</th>
+                            <th>3/6-M</th>
+                            <th>6/9-M</th>
+                            <th>9/12-M</th>
+                            <th>12/18-M</th>
+                            <th>18/24-M</th>
+                            <th>24/36-M</th>
+                            <th>3/4-Y</th>
+                            <th>4/5-Y</th>
+                            <th>5/6-Y</th>
+                            <th>6/7-Y</th>
+                            <th>7/8-Y</th>
+                            <th>8/9-Y</th>
+                            <th>9/10-Y</th>
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        @foreach(var s in Model)
+                        {
+                            <tr>
+                                <td>@s.Id</td>
+                                <td>@(s.M0_3.HasValue ? s.M0_3.Value : "N/A")</td>
+                                <td>@(s.M3_6.HasValue ? s.M3_6.Value : "N/A")</td>
+                                <td>@(s.M6_9.HasValue ? s.M6_9.Value : "N/A")</td>
+                                <td>@(s.M9_12.HasValue ? s.M9_12.Value : "N/A")</td>
+                                <td>@(s.M12_18.HasValue ? s.M12_18.Value : "N/A")</td>
+                                <td>@(s.M18_24.HasValue ? s.M18_24.Value : "N/A")</td>
+                                <td>@(s.M24_36.HasValue ? s.M24_36.Value : "N/A")</td>
+                                <td>@(s.Y3_4.HasValue ? s.Y3_4.Value : "N/A")</td>
+                                <td>@(s.Y4_5.HasValue ? s.Y4_5.Value : "N/A")</td>
+                                <td>@(s.Y5_6.HasValue ? s.Y5_6.Value : "N/A")</td>
+                                <td>@(s.Y6_7.HasValue ? s.Y6_7.Value : "N/A")</td>
+                                <td>@(s.Y7_8.HasValue ? s.Y7_8.Value : "N/A")</td>
+                                <td>@(s.Y8_9.HasValue ? s.Y8_9.Value : "N/A")</td>
+                                <td>@(s.Y9_10.HasValue ? s.Y9_10.Value : "N/A")</td>
+                                <td><a asp-action="UpdateStock" asp-route-id="@s.Id"  class="btn btn-warning"><i class="bi bi-pencil"></i>Update</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="mb-3">
+                <a asp-action="Index" class="btn btn-info">Product Info</a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

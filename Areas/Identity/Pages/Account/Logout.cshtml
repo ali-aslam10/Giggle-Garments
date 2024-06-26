@@ -1,0 +1,43 @@
+﻿@page
+@model LogoutModel
+
+<title>Giggle Garments-Logout</title>
+
+@{
+    if (User.Identity?.IsAuthenticated ?? false)
+    {
+
+        <section class="h-100">
+            <div class="container ">
+                <div class="row justify-content-sm-center h-100 mt-5">
+                    <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9 text-center">
+                        <div class="card shadow-lg">
+                            <div class="card-body p-5">
+                                <h1 class="fs-4 card-title fw-bold mb-4 text-center text-capitalize">Hello @User.Identity.Name?.Split('@').FirstOrDefault()<br />Welcome</h1>
+                                <div class="mt-3">
+                                    <a class="btn btn-outline-info" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                                          Manage Your Account
+                                    </a><br />
+                                </div>
+                                <p class="mt-3">Thanks for visiting Giggle Garments. Come back soon and explore more adorable styles for your little ones!</p>
+
+                                <form class="form-inline mt-4" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+
+                                    <button type="submit" class="btn btn-outline-primary w-50">Logout <i class="bi bi-box-arrow-right ms-3"></i></button>
+                                </form>
+                                <div class="text-center mt-5 text-muted">
+                                    © 2024 Giggle Garments
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    }
+    else
+    {
+        <p>You have successfully logged out of the application.</p>
+    }
+}

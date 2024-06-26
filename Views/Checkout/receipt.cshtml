@@ -1,0 +1,164 @@
+﻿ 
+@{
+    Layout = "_CustomLayout";
+}
+@using Giggle_Garments_MVC.Models.View_Model
+@model CustomerProduct
+
+<section class="h-100">
+    <div class="container ">
+        <div class="row justify-content-sm-center h-100 mt-5">
+            <div class=" col-12 col-md-10 ">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                        <p class="fs-4 card-title fw-bold mb-4 text-center text-success"><i class="bi bi-check-lg fs-2  text-success"></i> YOUR ORDER HAS BEEN PLACED<br> <span class="text-muted" style="font-size: small;">Thank you for shopping at Giggle Garments.</span> </p>
+                        <div class="row-col-1 ">
+                            <div class="col">
+                                <p class="fw-semibold fs-5">Order Summary:</p>
+                                <div class=" row  justify-content-between">
+                                    <p class="fw-semibold col-sm-auto  ">Order ID:<span class="fw-normal ms-1">@Model.order.Id</span></p><p class="fw-semibold col-sm-auto">Order Date: <span class="fw-normal ms-1">@Model.order.OrderDate</span></p>
+                                </div>
+                            </div>
+                            <div class="col table-responsive receipt-sm">
+                                <table class="table table-sm  table-ligh  align-middle">
+                                    <thead>
+                                        <tr>
+
+                                            <td class="ps-4">ITEM</td>
+                                            <td>ID</td>
+                                            <td>SIZE</td>
+                                            <td>PRICE</td>
+                                            <td>QTY</td>
+                                            <td>SUBTOTAL</td>
+
+
+
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            decimal subtotal=0, ordersubtotal=0;
+                                        }
+                                        @foreach (var item in Model.orderedProducts)
+                                        {
+                                            subtotal = 0;
+                                            <tr>
+                                                <td><img src="@item.Image.Substring(item.Image.IndexOf("wwwroot")).Replace("wwwroot","")" alt="Product image" style="max-height: 130px;"> </td>
+                                                <td>@item.ProdId</td>
+
+                                                <td>@item.Size</td>
+                                                <td>
+                                                    Rs.@string.Format("{0:N2}", item.Price)
+                                                    @{
+                                                        subtotal += item.Price * item.Quantity;
+                                                        ordersubtotal += subtotal;
+                                                    }
+                                                </td>
+                                                <td>@item.Quantity</td>
+                                                <td>Rs.@string.Format("{0:N2}", subtotal)</td>
+                                            </tr>
+                                            
+                                        }
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="receipt">
+                                <hr>
+                                @foreach (var item in Model.orderedProducts)
+                                {
+                                    subtotal = 0;
+                                    
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <img src="@item.Image.Substring(item.Image.IndexOf("wwwroot")).Replace("wwwroot","")" alt="Product image" style="max-height: 100px;">
+                                        </div>
+                                        <div class="col mt-2">
+                                            <div class="row justify-content-between gy-2">
+                                                <div class="col-auto">
+                                                    <span>Product Id:@item.ProdId</span>
+
+                                                    <br />
+                                                    <span>@item.Size</span><br />
+
+                                                </div>
+                                                <div class="col-auto">
+                                                    <span>
+                                                        Rs.@string.Format("{0:N2}", item.Price) <i class="bi bi-x text-muted mx-1"></i>@item.Quantity
+                                                        @{
+                                                            subtotal += item.Price * item.Quantity;
+                                                            
+                                                        }
+                                                    </span><br />
+
+                                                    <span> Rs.@string.Format("{0:N2}", subtotal)</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr>
+                                }
+                            </div>
+
+                            <div class="row justify-content-between mt-2">
+                                <div class="col-sm-7 border">
+                                    <p class="fw-semibold fs-5">Customer Information:</p>
+                                    <div class="row justify-content-between">
+                                        <div class="col-lg-6">
+                                            <p class="fw-medium"> Contact Information <br><br> <span class="fw-normal">Name:@Model.order.Fname</span><span class="fw-normal ms-1">@Model.order.Lname</span><br />
+                                                <span class="fw-normal">Ph:@Model.order.Phone</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <p class="fw-medium">Delivery Address <br> <span class="fw-normal"> @Model.order.Address<br />Postal Code:@Model.order.PostalCode</span></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row justify-content-between">
+                                        <div class="col-lg-6">
+                                            <p class="fw-medium"> Deleivery Method <br> <span class="fw-normal">Shipping <span class="mx-1">-</span> Standard Delivery</span></p>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <p class="fw-medium">Payment Method <br> <span class="fw-normal"> Cash on Delivery</span></p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="mt-3 mt-sm-0 col-sm-5 col-md-4">
+                                    <p class="fw-semibold fs-5">Order Total:</p>
+                                    <hr>
+                                    <div class=" row   justify-content-between">
+                                        <p class="fw-semibold  col-5 col-sm-auto  ">Subtotal:</p><p class="fw-normal col-6 col-sm-auto text-center">Rs.@string.Format("{0:N2}", ordersubtotal) </p>
+                                    </div>
+                                    <div class=" row  justify-content-between">
+                                        <p class="fw-semibold col-5 col-sm-auto  ">Shipping:</p><p class="fw-normal col-6 col-sm-auto text-center ">Rs.200.00 </p>
+                                    </div>
+                                    <hr>
+                                    @{
+                                        decimal total = ordersubtotal + 200;
+                                    }
+                                    <div class=" row  justify-content-between">
+                                        <p class="fw-bold col-5 col-sm-auto  ">TOTAL:</p><p class="fw-semibold  col-6 col-sm-auto text-center ">Rs.@string.Format("{0:N2}", total) </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="text-center mt-5 text-muted">
+                                © 2024 Giggle Garments
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

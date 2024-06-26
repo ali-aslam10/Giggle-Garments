@@ -1,0 +1,91 @@
+.logo {
+    width: 90px;
+    height: 90px;
+     
+}
+@media screen  and (max-width:768px) {
+.logo{
+    display: none;
+}
+        
+}
+
+.navbar a
+{
+    font-family:'Courier New', Courier, monospace;
+}
+.navbar a:hover
+{
+    color: rgb(255, 8, 8);
+    cursor:pointer
+}
+.navbar a:active
+{
+    color: blue;
+}
+.card a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+.mobileview ul,.abovemb ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+}
+.mobileview{
+    display: none;
+}
+.mobileview a, .abovemb a {
+    text-decoration: none;
+    color: black;
+}
+.mobileview li, .abovemb li {
+    margin-bottom: 10px;
+}
+.mobileview a:hover, .abovemb a:hover {
+    text-decoration: underline;
+}
+.cartimg 
+{
+    max-height: 120px;
+}
+.cartcount
+{
+    margin-left: -14px;
+    margin-top: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form-control:focus {
+    border-color: #230123;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 1px 8px rgba(164, 186, 25, 0.5);
+}
+
+
+@media screen and (max-width:768px){
+.mobileview{
+    display:block;
+}
+.abovemb{
+    display: none;
+}
+}
+.receipt {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .receipt-sm {
+        display: none;
+    }
+
+    .receipt {
+        display: block;
+    }
+}

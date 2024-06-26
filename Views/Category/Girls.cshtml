@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "_CustomLayout";
+}
+@model List<Product>;
+<title>Giggle Garments-Girls</title>
+<div class="container mt-4">
+    <div class="row justify-content-evenly gy-3">
+        @foreach (var p in Model)
+        {
+            <partial name="_ProductPartial" model="p" />
+
+        }
+    </div>
+</div>

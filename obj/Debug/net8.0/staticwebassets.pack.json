@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Giggle Garments MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Giggle Garments MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\07cd1162-e539-43b4-996a-1ba7e2430c3b_skin suit.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\07cd1162-e539-43b4-996a-1ba7e2430c3b_skin suit.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\0de60402-b911-4a17-8093-4ea3674ea6d6_kurta green.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\0de60402-b911-4a17-8093-4ea3674ea6d6_kurta green.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\4ed20de7-4659-4075-ad70-4b3cc1fdb436_kurta light green.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\4ed20de7-4659-4075-ad70-4b3cc1fdb436_kurta light green.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\54d94d5e-1f35-439c-bb55-44bec963487b_white suit.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\54d94d5e-1f35-439c-bb55-44bec963487b_white suit.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\63fb6eca-6883-4422-9a3b-7b6ca0dbf97d_black suit.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\63fb6eca-6883-4422-9a3b-7b6ca0dbf97d_black suit.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\80575e14-86dc-4d65-8b11-008aa7225511_kurta pink.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\80575e14-86dc-4d65-8b11-008aa7225511_kurta pink.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\e3983630-e4ea-4082-9475-eed1b0ecfc0c_kurta mustard.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\e3983630-e4ea-4082-9475-eed1b0ecfc0c_kurta mustard.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Boys images\\e99ed472-e091-4239-909e-74fa7d2800f3_kurta blue.PNG",
+      "PackagePath": "staticwebassets\\Boys images\\e99ed472-e091-4239-909e-74fa7d2800f3_kurta blue.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\02c4d334-c1af-4d51-b93b-56ac903f7817_printed card set2.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\02c4d334-c1af-4d51-b93b-56ac903f7817_printed card set2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\0a75673d-312a-4977-87dd-d303cbb7af73_Kameez & Trouser blue.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\0a75673d-312a-4977-87dd-d303cbb7af73_Kameez & Trouser blue.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\2f7a68e2-7d12-46ab-b995-744952fa0bdb_printed  Kurti.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\2f7a68e2-7d12-46ab-b995-744952fa0bdb_printed  Kurti.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\3d47cb0f-ecc2-4f7d-a5cd-f834d2d75b13_printed kurti with sharara.jpg",
+      "PackagePath": "staticwebassets\\Girls images\\3d47cb0f-ecc2-4f7d-a5cd-f834d2d75b13_printed kurti with sharara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\3d591b07-63d3-430a-8f97-7dfe1abf0e4b_Kameez & Trouser pink.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\3d591b07-63d3-430a-8f97-7dfe1abf0e4b_Kameez & Trouser pink.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\7516b1af-d152-4325-96e3-d7d208d65bd3_Kameez with  gharara yellow.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\7516b1af-d152-4325-96e3-d7d208d65bd3_Kameez with  gharara yellow.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\a2dc984d-1f95-4054-bc84-8161f17de472_printed card set.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\a2dc984d-1f95-4054-bc84-8161f17de472_printed card set.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\c70a0dcf-558d-4b04-8a6a-d96397383c4d_Kameez with   gharara.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\c70a0dcf-558d-4b04-8a6a-d96397383c4d_Kameez with   gharara.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\cf249d9f-d266-431f-82b1-c4075c0f3cb2_Embellished Kameez with ghrara3.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\cf249d9f-d266-431f-82b1-c4075c0f3cb2_Embellished Kameez with ghrara3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\d54bcc7c-be4e-421d-8e32-76f362b78197_printed  Kurti & ghrara.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\d54bcc7c-be4e-421d-8e32-76f362b78197_printed  Kurti & ghrara.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Girls images\\de21053e-8f3b-4ab7-aee0-01ae14e49c55_digital printed Kurti.PNG",
+      "PackagePath": "staticwebassets\\Girls images\\de21053e-8f3b-4ab7-aee0-01ae14e49c55_digital printed Kurti.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\0e91eb94-5c03-4097-aeed-eb901275a25f_Kameez & trouser (black).PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\0e91eb94-5c03-4097-aeed-eb901275a25f_Kameez & trouser (black).PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\18bfe733-1ffd-4f6b-975b-e5e9b028daa3_(pack of 3).PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\18bfe733-1ffd-4f6b-975b-e5e9b028daa3_(pack of 3).PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\1a9b7d7c-db79-4fab-8782-b49a8312e50a_handwork casual frock.PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\1a9b7d7c-db79-4fab-8782-b49a8312e50a_handwork casual frock.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\38df9cb8-2fdd-45ea-a347-9b0977e01f07_shirt,T-shirt with short.PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\38df9cb8-2fdd-45ea-a347-9b0977e01f07_shirt,T-shirt with short.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\74d446f5-aa95-4474-ad4b-f085176a1c67_body suit.PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\74d446f5-aa95-4474-ad4b-f085176a1c67_body suit.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\8c1bdfc6-41c9-4913-9b00-136e9bff43f9_(pack of 4).PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\8c1bdfc6-41c9-4913-9b00-136e9bff43f9_(pack of 4).PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\a9b26e5f-c5cb-44f8-9c42-ecb9703e4e91_frock & penty.PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\a9b26e5f-c5cb-44f8-9c42-ecb9703e4e91_frock & penty.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\Newborn images\\e62056f1-c420-4068-9725-e55b0e656f69_Kameez & shalwar.PNG",
+      "PackagePath": "staticwebassets\\Newborn images\\e62056f1-c420-4068-9725-e55b0e656f69_Kameez & shalwar.PNG"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\category_boys.jpg",
+      "PackagePath": "staticwebassets\\images\\category_boys.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\category_girls.jpg",
+      "PackagePath": "staticwebassets\\images\\category_girls.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\category_new_arrivals.jpg",
+      "PackagePath": "staticwebassets\\images\\category_new_arrivals.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\not found product.jpeg",
+      "PackagePath": "staticwebassets\\images\\not found product.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\web_banner_1.jpg",
+      "PackagePath": "staticwebassets\\images\\web_banner_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\web_banner_2.jpg",
+      "PackagePath": "staticwebassets\\images\\web_banner_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\images\\web_banner_3.jpg",
+      "PackagePath": "staticwebassets\\images\\web_banner_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\js\\myjs.js",
+      "PackagePath": "staticwebassets\\js\\myjs.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Web Engineering\\Giggle Garments MVC\\Giggle Garments MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Giggle Garments MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Giggle Garments MVC.props",
+      "PackagePath": "build\\Giggle Garments MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Giggle Garments MVC.props",
+      "PackagePath": "buildMultiTargeting\\Giggle Garments MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Giggle Garments MVC.props",
+      "PackagePath": "buildTransitive\\Giggle Garments MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

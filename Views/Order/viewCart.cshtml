@@ -1,0 +1,143 @@
+﻿@{
+    Layout = "_CustomLayout";
+}
+@model List<CartItem>
+<title>Giggle Garments-Shopping Cart</title>
+
+<div class="container-fluid mt-5">
+    <div class="row-col-1">
+        <div class="col">
+            <p class="fw-medium fs-3"> SHOPPING CART</p>
+        </div>
+        <hr>
+
+
+        @* cart empty *@
+
+        @if (Model.Count == 0)
+        {
+            
+
+            <div class="col text-center my-5">
+                <p>Your Shopping Cart is empty</p>
+                <p>Add an item to continue</p>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-dark">HOME PAGE</a>
+            </div>
+        }
+        else
+        {
+
+            decimal subtotal = 0;
+
+
+            <div class="col table-responsive abovemb">
+
+                <table class="table align-middle">
+                    <tbody>
+                        <tr>
+                            <td class="ps-4">ITEM</td>
+                            <td></td>
+                            <td>SIZE</td>
+                            <td>UNITS</td>
+                            <td>PRICE</td>
+                            <td></td>
+                        </tr>
+                        @foreach (var c in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="@c.Image.Substring(c.Image.IndexOf("wwwroot")).Replace("wwwroot","")" alt="Product image" class="cartimg" />
+                                </td>
+
+                                <td class="me-2 me-sm-0">
+                                    <a asp-controller="Category" asp-action="specific" asp-route-id="@c.ProdId">
+                                        @c.Name <span class="ms-1">(Product Id:@c.ProdId)</span>
+                                    </a>
+                                </td>
+                                <td style="white-space: nowrap;">@c.Size</td>
+                                <td>@c.Quantity</td>
+                                <td>
+                                    Rs.@string.Format("{0:N2}", c.Price)
+                                    @{
+                                        subtotal += c.Price * c.Quantity;
+                                    }
+                                </td>
+                                <td><a asp-controller="order" asp-action="removefromcart" asp-route-Id="@c.Id" style="text-decoration:underline">Remove</a> </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col mobileview">
+
+                <hr />
+                @foreach (var c in Model)
+                {
+                    <div class="row">
+                        <div class="col-auto">
+                            <img src="@c.Image.Substring(c.Image.IndexOf("wwwroot")).Replace("wwwroot","")" alt="Product image" class="cartimg" />
+                        </div>
+                        <div class="col mt-3">
+                            <div class="row justify-content-between">
+                                <div class="col-6">
+                                    <a asp-controller="category" asp-action="specific" asp-route-id="@c.ProdId"> <span clas="mt-5">@c.Name <span class="ms-1">(Product Id:@c.ProdId)</span></span></a>
+
+                                    <br />
+                                    <span>@c.Size</span><br />
+                                    <span> <i class="bi bi-x text-muted me-1"></i>@c.Quantity</span><br />
+                                </div>
+                                <div class="col-auto text-center pt-3">
+                                    <span>
+                                        Rs.@string.Format("{0:N2}", c.Price)
+
+                                    </span><br />
+                                    <a asp-controller="order" asp-action="removefromcart" asp-route-Id="@c.Id" style="text-decoration:underline">Remove</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                }
+            </div>
+
+            <div class="col">
+                <h6 class="mb-0"><a asp-controller="Home" asp-action="Index" class="text-body"><i class="bi bi-arrow-left me-2"></i>Continuee Shopping</a></h6>
+            </div>
+
+            <div class="col mt-5">
+                <div class="row justify-content-evenly">
+                    <div class="col-md-5 col-7 ">
+                        <p class="fw-semibold fs-5">SUMMARY:</p>
+                        <hr>
+                        <div class=" row  justify-content-between">
+                            <p class="fw-semibold col-auto  ">Subtotal:</p><p class="fw-normal col-auto">Rs.@string.Format("{0:N2}", subtotal)  </p>
+                        </div>
+                        <div class=" row  justify-content-between">
+                            <p class="fw-semibold col-auto  ">Shipping:</p><p class="fw-normal col-auto">Rs.200.00 </p>
+                        </div>
+                        <hr>
+                        <div class=" row  justify-content-between">
+                            @{
+                                decimal total = subtotal + 200;
+                            }
+                            <p class="fw-bold col-auto  ">TOTAL:</p><p class="fw-semibold col-auto">Rs.@string.Format("{0:N2}", total)  </p>
+                        </div>
+
+                        <a asp-controller="Checkout" asp-action="Checkoutform" class="btn btn-dark">
+                            Checkout
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <hr>
+        }
+    </div>
+</div>

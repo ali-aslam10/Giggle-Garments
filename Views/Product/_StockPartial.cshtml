@@ -1,0 +1,49 @@
+﻿@model (int ? id,Stock s)
+@if(@Model.id==3)
+{
+    <div class="col-auto">
+        <span class="fw-medium text-muted">0/3-M:<span class="fw-normal ">@Model.s.M0_3</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">3/6-M:<span class="fw-normal ">@Model.s.M3_6</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">6/9-M:<span class="fw-normal ">@Model.s.M6_9</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">9/12-M:<span class="fw-normal ">@Model.s.M9_12</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">12/18-M:<span class="fw-normal ">@Model.s.M12_18</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">18/24-M:<span class="fw-normal ">@Model.s.M18_24</span></span>
+    </div>
+}
+else
+{
+    <div class="col-auto">
+        <span class="fw-medium text-muted">24/36-M:<span class="fw-normal ">@Model.s.M24_36</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">3/4-Y:<span class="fw-normal ">@Model.s.Y3_4</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">4/5-Y:<span class="fw-normal">@Model.s.Y4_5</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">5/6-Y:<span class="fw-normal">@Model.s.Y5_6</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">6/7-Y:<span class="fw-normal">@Model.s.Y6_7</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">7/8-Y:<span class="fw-normal">@Model.s.Y7_8</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">8/9-Y:<span class="fw-normal">@Model.s.Y8_9</span></span>
+    </div>
+    <div class="col-auto">
+        <span class="fw-medium text-muted">9/10-Y:<span class="fw-normal">@Model.s.Y9_10</span></span>
+    </div>
+}
